@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: auto;
+    background-image: url(../images/filmreel.png);
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(48, 96, 67, 0.526);
+}
+
+h2 {
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: rgb(23, 22, 22);
+}
+
+.director {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(23, 22, 22);
+}
+
+h5 {
+    padding: 10px 0;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(23, 22, 22);
+}
+
+.director__info__text {
+    padding: 10px 0;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(23, 22, 22);
+}
+
+a {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(23, 22, 22);
+}
+
+a:hover {
+    font-size: 17px;
+}
+
+a:visited {
+    color: rgb(79, 76, 76);
+}
+
+.films {
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(23, 22, 22);
+}
+
+.films__text {
+    padding: 10px 0;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(23, 22, 22);
+}
